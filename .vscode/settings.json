@@ -1,0 +1,32 @@
+{
+    "security.workspace.trust.untrustedFiles": "open",
+    // Configuracion de extension Bracket Pair Colorizer 2
+    
+
+    "bracket-pair-colorizer-2.colors": [
+        "#fafafa",
+        "#9F51B6",
+        "#F7C244",
+        "#F07850",
+        "#9CDD29",
+        "#C497D4"
+    ],
+
+    "explorer.confirmDelete": false,
+    "workbench.colorTheme": "Monokai Night",
+    "editor.fontSize": 16,
+    "workbench.iconTheme": "material-icon-theme",
+    "bracket-pair-colorizer-2.forceUniqueOpeningColor": true,
+    "bracket-pair-colorizer-2.highlightActiveScope": true,
+    "bracket-pair-colorizer-2.showBracketsInGutter": true,
+    "bracket-pair-colorizer-2.showBracketsInRuler": true,
+    "bracket-pair-colorizer-2.depreciation-notice": false,
+    "workbench.activityBar.visible": false,
+    "workbench.preferredDarkColorTheme": "Monokai Night",
+    "workbench.preferredHighContrastColorTheme": "Monokai Night",
+    "workbench.preferredLightColorTheme": "Monokai Night",
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#313131",
+        "statusBar.foreground": "#313131"
+    }
+}

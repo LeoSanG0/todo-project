@@ -1,0 +1,121 @@
+form   {
+    width: 90%;
+    max-width: 300px;
+    background: #ECE9E6;
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6); 
+    padding: 33px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5%; 
+}
+
+label {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: #3c3c3d;
+    margin-bottom: 26px;
+}
+
+textarea {
+    background-color: #F9FBFC;
+    border: 2px solid #202329;
+    border-radius: 2px;
+    box-shadow: 0px 5px 50px rgba(32, 35, 41, 0.25);
+    color: #3c3c3d;
+    font-size: 20px;
+    text-align: center;
+    padding: 12px;
+    height: 96px;
+    width: calc(100% -25px);
+    border-radius: 5%;
+}
+
+textarea::placeholder {
+    color: #A5A5A5;
+    font-family: 'Cascadia Code','Montserrat';
+    font-weight: 400;
+}
+
+textarea:focus {
+    outline-color: #610061;
+}
+
+.todo-form-button-container {
+   margin-top: 14px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 100%; 
+}
+
+.todo-form-button {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 20px;
+    color: #202329;
+    font-weight: 400;
+    width: 120px;
+    height: 48px;
+    border-radius: 2px;
+    border: none;
+    font-family: 'Cascadia Code','Montserrat';
+}
+
+
+.todo-form-button-add {
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+.todo-form-button-add:hover {
+    background-color: #30BF45;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-2px);
+}
+
+.todo-form-button-add:active {
+    transform: translateY(-0.2px);
+}
+
+.todo-form-button-cancel {
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+.todo-form-button-cancel:hover {
+    background-color: #F25D50;
+    box-shadow: 0px 15px 20px rgba(255, 126, 126, 0.4);
+    color: #fff;
+    transform: translateY(-2px);
+}
+
+.todo-form-button-cancel:active {
+    transform: translateY(-0.2px);
+}
